@@ -1,0 +1,25 @@
+//
+// REVOLT!
+// BASE.LISTS
+//
+
+
+
+// Predefine the variables below to alter and enable specific features.
+
+$revo-list-indent-margin:    double($revo-spacer-x) !default;
+
+
+
+// Indent lists.
+
+ul,
+ol,
+dd {
+    margin-left: $revo-list-indent-margin;
+    padding: 0;
+
+    [dir=rtl] & {
+        margin-right: $revo-list-indent-margin;
+    }
+}
